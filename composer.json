@@ -1,0 +1,29 @@
+{
+    "name": "braddle/pact-provider",
+    "description": "Playing with Pact contract testing - Provider Application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Bradley",
+            "email": "braddle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Braddle\\Provider\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Braddle\\Test\\Provider\\": "test"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1",
+        "pact-foundation/pact-php": "^5.0"
+    }
+}
