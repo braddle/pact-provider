@@ -1,0 +1,11 @@
+# Logfile created on 2019-05-01 15:22:46 +0100 by logger.rb/47272
+I, [2019-05-01T15:22:46.134243 #15370]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given User 1 exists A GET request to /user/{user_id} with GET /person/1 returns a response which has status code 200'
+I, [2019-05-01T15:22:46.134495 #15370]  INFO -- : Sending GET request to path: "/person/1" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2019-05-01T15:22:46.134584 #15370] DEBUG -- : body :
+I, [2019-05-01T15:22:46.179177 #15370]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:58000", "Date"=>"Wed, 01 May 2019 14:22:46 +0000", "Connection"=>"close", "X-Powered-By"=>"PHP/7.1.16", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2019-05-01T15:22:46.179255 #15370] DEBUG -- : body: {"first_name":"Mark","last_name":"Bradley"}
+I, [2019-05-01T15:23:50.285943 #15396]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given User 1 exists A GET request to /user/{user_id} with GET /person/1 returns a response which has status code 200'
+I, [2019-05-01T15:23:50.286673 #15396]  INFO -- : Sending GET request to path: "/person/1" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2019-05-01T15:23:50.286805 #15396] DEBUG -- : body :
+I, [2019-05-01T15:23:50.326864 #15396]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:58000", "Date"=>"Wed, 01 May 2019 14:23:50 +0000", "Connection"=>"close", "X-Powered-By"=>"PHP/7.1.16", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2019-05-01T15:23:50.326958 #15396] DEBUG -- : body: {"first_name":"Mark","last_name":"Bradley"}
